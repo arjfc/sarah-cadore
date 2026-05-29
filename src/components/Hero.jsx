@@ -65,7 +65,7 @@ const Hero = () => {
           <div className="relative flex justify-center md:justify-end animate-silhouette-reveal">
             <div className="relative" style={{ maxWidth: '320px', width: '100%' }}>
               <img
-                src="/images/the-dream.jpg"
+                src="/images/the-dream.png"
                 alt="The Dream - Book Cover"
                 className="relative w-full h-auto object-cover rounded-sm shadow-2xl"
                 style={{ minHeight: '500px' }}
