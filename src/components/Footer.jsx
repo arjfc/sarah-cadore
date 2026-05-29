@@ -80,7 +80,7 @@ const Footer = () => {
         <div className="mt-8 pt-6 border-t" style={{ borderColor: 'rgba(255, 255, 255, 0.08)' }}>
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="font-tagline text-xs text-center md:text-left" style={{ color: 'rgba(245, 245, 245, 0.35)' }}>
-              © 2024 Sarah J. Cadore. All rights reserved.
+              © 2026 Sarah J. Cadore. All rights reserved.
             </p>
 
           </div>

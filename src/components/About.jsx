@@ -9,11 +9,23 @@ const About = () => {
 
         {/* Header */}
         <div className="text-center mb-8">
+          <div
+            className="inline-flex items-center gap-2 px-4 py-2 rounded-full mb-4"
+            style={{ 
+              border: '2px solid #D97706',
+              backgroundColor: 'rgba(217, 119, 6, 0.08)'
+            }}
+          >
+            <span className="font-tagline text-xs" style={{ color: '#D97706' }}>
+              MEET THE AUTHOR
+            </span>
+          </div>
+
           <h2 className="font-display text-4xl md:text-5xl font-bold mb-3" style={{ color: '#924B0E' }}>
-            {authorData.fullName}
+            Sarah J. Cadore
           </h2>
-          <div className="section-divider mb-4" style={{ background: 'linear-gradient(90deg, transparent, #924B0E, transparent)' }}></div>
-          
+
+          <div className="section-divider" style={{ background: 'linear-gradient(90deg, transparent, #924B0E, transparent)' }}></div>
         </div>
 
         {/* Main Content */}
