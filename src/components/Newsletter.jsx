@@ -36,12 +36,12 @@ const Newsletter = () => {
               <span className="text-sm" style={{ color: 'rgba(245, 245, 245, 0.8)' }}>{authorData.email}</span>
             </div>
           )}
-          {authorData.phone && (
+          {/* {authorData.phone && (
             <div className="backdrop-blur-sm px-5 py-2 rounded-full inline-flex items-center gap-2" style={{ backgroundColor: 'rgba(255, 255, 255, 0.08)' }}>
               <FaPhone size={13} style={{ color: '#D97706' }} />
               <span className="text-sm" style={{ color: 'rgba(245, 245, 245, 0.8)' }}>{authorData.phone}</span>
             </div>
-          )}
+          )} */}
         </div>
 
         <form onSubmit={handleSubmit} className="max-w-md mx-auto flex flex-col sm:flex-row gap-4">
