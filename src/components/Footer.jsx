@@ -78,11 +78,23 @@ const Footer = () => {
 
         {/* Bottom Info */}
         <div className="mt-8 pt-6 border-t" style={{ borderColor: 'rgba(255, 255, 255, 0.08)' }}>
-          <div className="flex flex-col md:flex-row justify-between items-center gap-4">
-            <p className="font-tagline text-xs text-center md:text-left" style={{ color: 'rgba(245, 245, 245, 0.35)' }}>
+          <div className="flex flex-col items-center gap-4">
+            <a
+              href="https://buy.stripe.com/7sY5kEdVm6vNfRU8Ey2kw07"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="font-author text-xs px-8 py-3 rounded-sm transition-all duration-300 transform hover:-translate-y-0.5 hover:opacity-90 shadow-lg"
+              style={{ 
+                background: 'linear-gradient(90deg, #924B0E, #D97706, #924B0E)',
+                color: '#f5f5f5',
+                letterSpacing: '0.15em'
+              }}
+            >
+              Launch & Go-Live Portal
+            </a>
+            <p className="font-tagline text-xs text-center" style={{ color: 'rgba(245, 245, 245, 0.35)' }}>
               © 2026 Sarah J. Cadore. All rights reserved.
             </p>
-
           </div>
         </div>
 
