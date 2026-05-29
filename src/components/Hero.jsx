@@ -63,22 +63,12 @@ const Hero = () => {
 
           {/* Right Image - Book Cover */}
           <div className="relative flex justify-center md:justify-end animate-silhouette-reveal">
-            <div className="relative" style={{ maxWidth: '320px', width: '100%' }}>
-              <img
-                src="/images/the-dream.png"
-                alt="The Dream - Book Cover"
-                className="relative w-full h-auto object-cover rounded-sm shadow-2xl"
-                style={{ minHeight: '500px' }}
-              />
-              {/* Name overlay at bottom */}
-              <div
-                className="absolute bottom-0 left-0 right-0 px-6 py-4 rounded-b-sm text-center"
-                style={{ background: 'linear-gradient(to top, rgba(26,26,26,0.95), transparent)' }}
-              >
-                <p className="font-author text-sm" style={{ color: '#D97706' }}>The Dream</p>
-                <p className="font-tagline text-xs opacity-70" style={{ color: '#f5f5f5' }}>{authorData.name}</p>
-              </div>
-            </div>
+            <img
+              src="/images/the-dream.png"
+              alt="The Dream - Book Cover"
+              className="w-auto h-auto object-cover"
+              style={{ maxHeight: '520px' }}
+            />
           </div>
         </div>
       </div>
